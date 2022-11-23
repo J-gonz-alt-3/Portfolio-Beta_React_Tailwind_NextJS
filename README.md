@@ -1,3 +1,38 @@
+# Introduction
+
+Project Complete
+
+Link to Project: https://portfolio-beta-react-tailwind-next-js.vercel.app (Vercel)
+
+Secondary Link to Project: jpgportfolio.org (NOT Working atm)
+
+# Reasons for Beta version of Portfolio Project
+
+So, you will notice that it looks quite different from my current live Portfolio (jpgcodes.com).
+
+The reason for this project was to use Next.JS in combination with TailwindsCSS to see just how different it is from ReactJS.
+
+My honest opinion is that I enjoyed the project during the development process however deployment has been quite annoying.
+
+Originally, I wanted to deploy it on Hostinger but realized that I couldn't do so and the best way to deploy Next.JS apps on via Vercel.
+
+I then discovered that Vercel may be able to point the deployed App to a domain of mine, so I pointed my Hostinger domain's DNS servers to Vercel and I am currently waiting to see if this works.
+
+If not then I lost $8 dollars :/
+
+# Lessons Learned
+
+My Tailwind and even CSS skills really skyrocketed with this project.
+
+I feel as if I now have a much stronger grasp of CSS/Tailwinds perhaps it could also be due to the number of projects I am putting under my belt.
+
+Regardless, I might stick with ReactJS just because deployment is so much easier but I haven't decided.
+
+Anyways, thanks for reading this and looking at my code!
+
+************************************************************************************************************
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
