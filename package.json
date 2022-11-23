@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod_start": "NODE_ENV=production node server.js",
+    "build": "next build && next export"
   },
   "dependencies": {
     "next": "13.0.4",
