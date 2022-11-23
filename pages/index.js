@@ -57,7 +57,10 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center py-3 text-blue-600">
-            <a href="https://www.linkedin.com/in/gonzalesaltamiranoje/">
+            <a
+              href="https://www.linkedin.com/in/gonzalesaltamiranoje/"
+              target="_blank"
+            >
               <AiFillLinkedin />
             </a>
           </div>
@@ -72,8 +75,12 @@ export default function Home() {
               I am 100% self-taught, with most of my foundational{" "}
               <span className="text-teal-500">Web Development training</span>{" "}
               coming from completing projects on{" "}
-              <span className="text-teal-500">FreeCodeCamp.com</span> as well as
-              just watching hours upon hours of YouTube videos on Web
+              <span className="text-teal-500">
+                <a href="https://www.freecodecamp.org" target="_blank">
+                  freecodecamp.org
+                </a>
+              </span>{" "}
+              as well as just watching hours upon hours of YouTube videos on Web
               Development topics!
             </p>
           </div>
@@ -112,40 +119,51 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
             <div className="basis-1/3 flex-1 border-solid border-4 border-teal-600 rounded-xl">
-              <Image
-                src={aisite}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a href="https://gpt3-jpg.com" target="_blank">
+                <Image
+                  src={aisite}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 border-solid border-4 border-teal-600 rounded-xl">
-              <Image
-                src={finedining}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a href="https://jpgfoods.shop" target="_blank">
+                <Image
+                  src={finedining}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 border-solid border-4 border-teal-600 rounded-xl">
-              <Image
-                src={portfolio2}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a href="https://jpgcodes.com" target="_blank">
+                <Image
+                  src={portfolio2}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 border-solid border-4 border-teal-600 rounded-xl">
-              <Image
-                src={portfolio_v2}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a
+                href="https://portfolio-beta-react-tailwind-next-js.vercel.app"
+                target="_blank"
+              >
+                <Image
+                  src={portfolio_v2}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
           </div>
         </section>
